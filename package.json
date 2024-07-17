@@ -1,0 +1,47 @@
+{
+  "name": "lottery-operations",
+  "version": "1.0.0",
+  "description": "This is a template to build smart contracts in Rust to run inside a\r [Cosmos SDK](https://github.com/cosmos/cosmos-sdk) module on all chains that enable it.\r To understand the framework better, please read the overview in the\r [cosmwasm repo](https://github.com/CosmWasm/cosmwasm/blob/master/README.md),\r and dig into the [cosmwasm docs](https://www.cosmwasm.com).\r This assumes you understand the theory and just want to get coding.",
+  "main": "deploy.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "npx ts-node test.ts",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cosmwasm": "^1.1.1",
+    "@cosmjs/amino": "0.32.2",
+    "@cosmjs/cosmwasm-stargate": "^0.32.2",
+    "@cosmjs/crypto": "0.32.2",
+    "@cosmjs/math": "0.32.2",
+    "@cosmjs/proto-signing": "0.32.2",
+    "@cosmjs/stargate": "0.32.2",
+    "@oraichain/common-contracts-sdk": "1.0.31",
+    "@oraichain/oraidex-common": "^1.0.29",
+    "@oraichain/oraidex-contracts-sdk": "^1.0.27",
+    "buffer": "^6.0.3",
+    "lodash": "^4.17.21",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.10.4",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/parser": "^6.7.5",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.51.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-security": "^1.7.1",
+    "jest": "^29.5.0",
+    "lerna": "^8.1.6"
+  }, 
+  "type": "module"
+
+}
